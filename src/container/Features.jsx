@@ -1,5 +1,5 @@
 import React from "react";
-import FeatureBox from "./feature_box/FeatureBox";
+import FeatureBox from "../components/feature_box/FeatureBox";
 import {
   OrderFood,
   FastDelivery,

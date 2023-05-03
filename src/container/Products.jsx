@@ -1,6 +1,6 @@
 import React from "react";
 import { ProductSingle01 } from "../assets/img";
-import Product from "./product/Product";
+import Product from "../components/product/Product";
 
 const products = [
   {

@@ -1,5 +1,6 @@
 import React from "react";
 import { NewsletterImg } from "../../assets/img";
+import './newsletter.css'
 
 const Newsletter = () => {
   return (

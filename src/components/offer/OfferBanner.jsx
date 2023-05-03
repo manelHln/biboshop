@@ -1,5 +1,6 @@
 import React from 'react'
 import { PromoBanner } from '../../assets/img'
+import './offerbanner.css'
 
 const OfferBanner = () => {
   return (

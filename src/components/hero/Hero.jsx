@@ -1,5 +1,6 @@
 import React from 'react'
 import {BannerBg} from '../../assets/img'
+import './hero.css'
 
 const Hero = () => {
   return (
