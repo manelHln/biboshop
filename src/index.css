@@ -96,84 +96,9 @@ button.normal {
   height: auto;
 }
 
-.navbar-logo {
-  font-size: 50px;
-  font-weight: bolder;
-  text-decoration: none;
-  list-style: none;
-  color: #000001;
-  transition: ease-in 0.3s;
-}
 
-#navbar li {
-  list-style: none;
-  padding: 0 20px;
-  position: relative;
-}
 
-#navbar li a {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
-  color: #040404;
-  transition: 0.3s ease;
-}
 
-#navbar li a:hover,
-#navbar li a.active {
-  color: #3C4048;;
-}
-
-#navbar li a.active::after,
-#navbar li a:hover::after {
-  content: " ";
-  width: 30%;
-  height: 2px;
-  background: #B2B2B2;
-  position: absolute;
-  bottom: -4px;
-  left: 20px;
-}
-
-/* Home page */
-#hero {
-  /* background-image: url(/src/assets/banner_bg.png); */
-  height: 90vh;
-  width: 100%;
-  background-size: cover;
-  background-position: top 25% right 25%;
-  padding: 5px 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-#hero h4 {
-  padding-bottom: 15px;
-}
-
-#hero h1 {
-  color: #EAEAEA;
-}
-
-#hero button {
-  
-  background-color: transparent;
-  color: #EAEAEA;
-  border: 1px solid #B2B2B2;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 28px;
-  font-weight: bold 700;
-  background-repeat: no-repeat;
-  transition: 0.2s ease-in;
-}
-
-#hero button:hover {
-  background-color: #EAEAEA;
-  color: #185c5e;
-}
 
 .img1 {
   width: 120px;
@@ -320,40 +245,7 @@ button.normal {
 
 }
 
-#banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* background-image: url(img/promo-banner1.jpg); */
-  height: 45vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-}
 
-#banner h4 {
-  color: #cce7d0;
-  font-size: 16px;
-
-}
-
-#banner h2 {
-  color: white;
-  font-size: 30px;
-  font-weight: 700;
-  padding: 10px 0;
-
-}
-
-#banner h2 span {
-  color: rgb(100, 15, 15);
-}
-
-#banner button:hover {
-  background-color: #00ABB3;
-  color: white;
-}
 
 #sm-banner {
   display: flex;
@@ -443,13 +335,10 @@ button.normal {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  /* background-image: url(img/promo-banner1.jpg); */
   height: 50vh;
   width: 30%;
-  /* width: auto; */
   margin: 0 20px;
   background-size: cover;
-  /* background-position: cente;  */
 }
 
 #banner3 h2 {
@@ -474,138 +363,6 @@ button.normal {
   color: #576CBC;
 }
 
-#newsletter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  /* background-image: url(img/pawel-czerwinski-OY3slACa3ec-unsplash.jpg); */
-  background-repeat: no-repeat;
-  height: 50vh;
-  background-size: cover;
-  background-color: #554a4a;
-  background-position: bottom;
-  margin: 12px 0 0 0;
-  padding: 0 20px;
-}
-
-#newsletter p {
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-#newsletter h4 {
-  color: white;
-  font-size: 22px;
-  font-weight: 700;
-}
-
-#newsletter p span {
-  color: rgb(238, 105, 15);
-  font-weight: bolder;
-}
-
-#newsletter .newsForm {
-  display: flex;
-  width: 40%;
-}
-
-#newsletter input {
-  height: 3.14rem;
-  width: 100%;
-  font-size: 14 px;
-  padding: 15px 20px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  outline: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-#newsletter button {
-  background-color: #00ABB3;
-  color: white;
-  padding: 0 20px;
-  white-space: nowrap;
-  border-radius: 5px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.app-img {
-  width: 300px;
-  height: 120px;
-  border: 1px solid #00ABB3;
-  border-radius: 5px;
-  margin: 10px 0 10px 0;
-}
-
-.pay-img {
-  width: 65%;
-  height: 80px;
-  border: 1px solid #00ABB3;
-  border-radius: 5px;
-  margin: 10px 0 10px 0;
-}
-
-footer {
-  background-color: #00ABB3;
-}
-
-footer .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-footer .col {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-footer .app {
-  width: auto;
-}
-
-footer h4 {
-  margin-bottom: 20px;
-  font-size: 14;
-}
-
-footer p {
-  margin-bottom: 13px;
-}
-
-footer a {
-  margin: 0 0 8px 0;
-  color: #1a1a1a;
-  text-decoration: none;
-}
-
-footer .logo {
-  margin-bottom: 30px;
-}
-
-footer .follow {
-  margin-top: 20px;
-  color: rgb(0, 0, 0);
-}
-
-footer .follow i {
-  padding-right: 12px;
-}
-
-footer .follow i:hover,
-footer a:hover {
-  color: #00ABB3;
-}
-
-footer .copyright {
-  margin-top: 30px;
-  text-align: center;
-}
 
 
 
@@ -619,7 +376,12 @@ footer .copyright {
 
 
 
-/*S
+
+
+
+
+
+
 
 
 

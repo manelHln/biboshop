@@ -1,4 +1,6 @@
 import React from "react";
+import '<div className="" />
+<bannerbox></bannerbox>.css';
 
 const BannerBox = ({ title, subTitle, text, buttonText, small, bgImg }) => {
   return (

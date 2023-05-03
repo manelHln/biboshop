@@ -1,5 +1,5 @@
 import React from "react";
-import BannerBox from "./banner_box/BannerBox";
+import BannerBox from "../components/banner_box/BannerBox";
 import { Banner } from "../assets/img";
 
 const banners = [
